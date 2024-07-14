@@ -1,0 +1,14 @@
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\bin\Debug\net8.0\MODELS.deps.json
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\bin\Debug\net8.0\MODELS.runtimeconfig.json
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\bin\Debug\net8.0\MODELS.dll
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\bin\Debug\net8.0\MODELS.pdb
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\MODELS.csproj.AssemblyReference.cache
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfoInputs.cache
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfo.cs
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\MODELS.csproj.CoreCompileInputs.cache
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\MODELS.dll
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\refint\MODELS.dll
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\MODELS.pdb
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\MODELS.genruntimeconfig.cache
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\ref\MODELS.dll
