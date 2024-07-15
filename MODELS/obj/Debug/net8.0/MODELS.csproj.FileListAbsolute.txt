@@ -12,3 +12,4 @@ C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\ref
 C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\MODELS.pdb
 C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\MODELS.genruntimeconfig.cache
 C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\ref\MODELS.dll
+C:\Users\שושנה\Documents\לימודים\web API\MODELS\obj\Debug\net8.0\MODELS.sourcelink.json

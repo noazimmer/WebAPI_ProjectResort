@@ -17,3 +17,4 @@ C:\Users\שושנה\Documents\לימודים\web API\BL\obj\Debug\net8.0\refint\
 C:\Users\שושנה\Documents\לימודים\web API\BL\obj\Debug\net8.0\BL.pdb
 C:\Users\שושנה\Documents\לימודים\web API\BL\obj\Debug\net8.0\BL.genruntimeconfig.cache
 C:\Users\שושנה\Documents\לימודים\web API\BL\obj\Debug\net8.0\ref\BL.dll
+C:\Users\שושנה\Documents\לימודים\web API\BL\obj\Debug\net8.0\BL.sourcelink.json

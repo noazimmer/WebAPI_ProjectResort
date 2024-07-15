@@ -158,3 +158,4 @@ C:\Users\שושנה\Documents\לימודים\web API\WebAPIproject\bin\Debug\net
 C:\Users\שושנה\Documents\לימודים\web API\WebAPIproject\bin\Debug\net8.0\BL.pdb
 C:\Users\שושנה\Documents\לימודים\web API\WebAPIproject\bin\Debug\net8.0\DAL.pdb
 C:\Users\שושנה\Documents\לימודים\web API\WebAPIproject\bin\Debug\net8.0\MODELS.pdb
+C:\Users\שושנה\Documents\לימודים\web API\WebAPIproject\obj\Debug\net8.0\WebAPIproject.sourcelink.json
