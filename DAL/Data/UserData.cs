@@ -25,7 +25,14 @@ namespace DAL.Data
         {
             return await _usersCollection.Find(u =>  u.email == email).FirstOrDefaultAsync();
         }
-
+        public async Task<User> GetUserPhone(string phone)
+        {
+            return await _usersCollection.Find(u => u.phone == phone).FirstOrDefaultAsync();
+        }
+        public async Task<User> GetUserById(string id)
+        {
+            return await _usersCollection.Find(u => u.id == id).FirstOrDefaultAsync();
+        }
         public async Task<User> GetUserByPasswordAndEmail(string password, string email)
         {
             return await _usersCollection.Find(u => u.password == password&&u.email==email).FirstOrDefaultAsync();
@@ -36,10 +43,11 @@ namespace DAL.Data
             return true;
         }
 
-        public async Task<bool> UpdateUser(string id, UserDTO user)
+        public async Task<bool> UpdateUser(string id, UserDTO userDto)
         {
-            await _usersCollection.ReplaceOneAsync(u => u.id == id, _mapper.Map<User>(user));
-            return true;
+            var user = _mapper.Map<User>(userDto);
+            var result = await _usersCollection.ReplaceOneAsync(u => u.id == id, user);
+            return result.IsAcknowledged && result.ModifiedCount > 0;
         }
 
         public async Task<bool> DeleteUser(string id)

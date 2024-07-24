@@ -18,5 +18,7 @@ namespace DAL.Interfaces
         public Task<bool> AddUser(UserDTO user);
         public Task<bool> UpdateUser(string id, UserDTO user);
         public Task<bool> DeleteUser(string id);
+        public Task<User> GetUserPhone(string phone);
+        public  Task<User> GetUserById(string id);
     }
 }

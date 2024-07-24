@@ -1,5 +1,6 @@
 ﻿using DAL.DTO;
 using DAL.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MODELS;
 
@@ -14,8 +15,9 @@ namespace WebAPIproject.Controllers
         {
             _reactionData = reactionData;
         }
-      
+
         // הוספת תגובה חדשה לריזורט
+        [Authorize]
         [HttpPost("{resortName}/addReaction")]
         public async Task<ActionResult> AddReaction(string resortName, [FromBody] ReactionDTO reaction)
         {
@@ -28,6 +30,7 @@ namespace WebAPIproject.Controllers
         }
 
         // שליפת כל התגובות לריזורט מסוים
+        [Authorize]
         [HttpGet("{resortName}/reactions")]
         public async Task<ActionResult<IEnumerable<Reaction>>> GetReactions(string resortName)
         {
@@ -52,6 +55,7 @@ namespace WebAPIproject.Controllers
         //}
 
         // מחיקת תגובה לריזורט
+        [Authorize]
         [HttpDelete("{resortName}/deleteReaction")]
         public async Task<ActionResult> DeleteReaction(string resortName, string advertiserName, DateTime dateTime)
         {

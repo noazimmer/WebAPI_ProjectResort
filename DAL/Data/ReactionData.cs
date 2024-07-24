@@ -38,23 +38,7 @@ namespace DAL.Data
             return resort?.reactions;
         }
 
-        // עדכון תגובה קיימת לריזורט
-        //public async Task<bool> UpdateReaction(string resortName, ReactionDTO updatedReaction)
-        //{
-        //    var resort = await _resortsCollection.Find(r => r.resortName == resortName).FirstOrDefaultAsync();
-        //    if (resort != null)
-        //    {
-        //        var reactions = resort.reactions.ToList();
-        //        var index = reactions.FindIndex(r => r.advertiserName == _mapper.Map<Reaction>(updatedReaction).advertiserName && r.dateTime == _mapper.Map<Reaction>(updatedReaction).dateTime);
-        //        if (index >= 0)
-        //        {
-        //            reactions[index] = _mapper.Map < Reaction > (updatedReaction);
-        //            var update = Builders<Resort>.Update.Set(r => r.reactions, new Stack<Reaction>(reactions));
-        //            await _resortsCollection.UpdateOneAsync(r => r.resortName == resortName, update);
-        //        }
-        //    }
-        //    return true;
-        //}
+       
 
         // מחיקת תגובה לריזורט
         public async Task DeleteReaction(string resortName, string advertiserName, DateTime dateTime)
@@ -70,5 +54,22 @@ namespace DAL.Data
         }
     }
 }
-    
 
+
+//  צריך לתקן את הקוד הזה הוא לא עובד )עדכון תגובה קיימת לריזורט)
+//public async Task<bool> UpdateReaction(string resortName, ReactionDTO updatedReaction)
+//{
+//    var resort = await _resortsCollection.Find(r => r.resortName == resortName).FirstOrDefaultAsync();
+//    if (resort != null)
+//    {
+//        var reactions = resort.reactions.ToList();
+//        var index = reactions.FindIndex(r => r.advertiserName == _mapper.Map<Reaction>(updatedReaction).advertiserName && r.dateTime == _mapper.Map<Reaction>(updatedReaction).dateTime);
+//        if (index >= 0)
+//        {
+//            reactions[index] = _mapper.Map < Reaction > (updatedReaction);
+//            var update = Builders<Resort>.Update.Set(r => r.reactions, new Stack<Reaction>(reactions));
+//            await _resortsCollection.UpdateOneAsync(r => r.resortName == resortName, update);
+//        }
+//    }
+//    return true;
+//}
