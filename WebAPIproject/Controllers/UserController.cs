@@ -52,11 +52,11 @@ namespace WebAPIproject.Controllers
         //    return await _dbUser.GetUserByEmail( email);
 
         //}
-        //    [HttpGet]
-        //    public async Task<List<User>> Get()
-        //    {
-        //        return await _dbUser.GetAllUsers();
+        //[HttpGet]
+        //public async Task<List<User>> Get()
+        //{
+        //    return await _dbUser.GetAllUsers();
 
-        //    }
+        //}
     }
 }
